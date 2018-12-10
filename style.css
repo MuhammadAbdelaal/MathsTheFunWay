@@ -1,0 +1,192 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+}
+#container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0px;
+}
+
+#brand {
+    float: left;
+}
+#brand a {
+    font-size: 55px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#search-box {
+    float: right;
+    background: linear-gradient(#DCF0A8, #C0EB68);
+    background: -webkit-linear-gradient(#DCF0A8, #C0EB68);
+    background: -o-linear-gradient(#DCF0A8, #C0EB68);
+    background: -moz-linear-gradient(#DCF0A8, #C0EB68);
+    background: -ms-linear-gradient(#DCF0A8, #C0EB68);
+    width: 300px;
+    padding: 20px 40px 20px 40px;
+    margin-top: 20px;
+    border: 1px solid #96C8A8;
+}
+
+.search-input {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0C;
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid #96C8A8;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+    border: 1px solid #96C8A8;
+}
+
+#clear {
+    clear: both;
+}
+
+#menu {
+    background: linear-gradient(#F4F18A, #D5D534);
+    background: -webkit-linear-gradient(#F4F18A, #D5D534);
+    background: -o-linear-gradient(#F4F18A, #D5D534);
+    background: -moz-linear-gradient(#F4F18A, #D5D534);
+    background: -ms-linear-gradient(#F4F18A, #D5D534);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #5d12e7;
+    line-height: 25px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 19px;
+    font-weight: bold;
+    color: #861BBF;
+}
+
+#introduction-box {
+    background: linear-gradient(#DCF0A8, #C0EB68);
+    background: -webkit-linear-gradient(#DCF0A8, #C0EB68);
+    background: -o-linear-gradient(#DCF0A8, #C0EB68);
+    background: -moz-linear-gradient(#DCF0A8, #C0EB68);
+    background: -ms-linear-gradient(#DCF0A8, #C0EB68);
+    padding: 30px;
+    margin: 20px 0px;
+}
+
+#introduction-box h3 {
+    color: #558521;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#introduction-box p {
+    color: #629036;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.sidebar {
+    border: 1px solid #E3F2B8;
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    padding: 0px 30px;
+}
+
+.sidebar h3 {
+    font-size: 28px;
+    color: #B314DB;
+}
+
+
+#left-side-bar {
+    float: left;
+    box-shadow: -5px 7px 10px 0.3px rgba(220, 240, 168, 0.74);
+}
+
+#right-side-bar {
+    float: right;
+    box-shadow: 5px 7px 10px 0.3px rgba(220, 240, 168, 0.74);
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+.sidebar a:hover, .sidebar a:active {
+    font-size: 22px;
+    font-weight: bold;
+    color: #861BBF;
+}
+
+#left-side-bar ul li {
+    padding: 5px 0px 5px 40px;
+    background: url(images/arrow.png) no-repeat left center;
+}
+
+#right-side-bar ul li {
+    padding: 20px 0px 20px 60px;
+    background: url(images/tick.png) no-repeat left center;
+}
+
+#footer {
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: linear-gradient(#F4F18A, #D5D534);
+    background: -webkit-linear-gradient(#F4F18A, #D5D534);
+    background: -moz-linear-gradient(#F4F18A, #D5D534);
+    background: -o-linear-gradient(#F4F18A, #D5D534);
+    background: -ms-linear-gradient(#F4F18A, #D5D534);
+    border-radius: 5px;
+}
+
+
+
+
